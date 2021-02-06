@@ -1,2 +1,2 @@
 #!/usr/bin/env sh
-yes | curl -fsSL https://starship.rs/install.sh | bash
+curl -fsSL https://starship.rs/install.sh | bash -s -- --yes

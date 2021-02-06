@@ -5,5 +5,5 @@ unzip $TEMPDIR/firacode.zip -d $TEMPDIR
 mkdir -p ~/.local/share/fonts/firacodenerd
 cp "$TEMPDIR"/*.otf ~/.local/share/fonts/firacodenerd
 cp "$TEMPDIR"/*.ttf ~/.local/share/fonts/firacodenerd
-#rm -r $TEMPDIR
+rm -r $TEMPDIR
 fc-cache
