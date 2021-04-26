@@ -120,7 +120,7 @@ source "$HOME/.cargo/env"
 
 eval "$(starship init bash)"
 
-export PATH=$PATH:/opt/go/bin:/opt/julia/bin:$HOME/bin:/lib/cuda/bin
+export PATH=$PATH:$HOME/.local/bin:/opt/go/bin:/opt/julia/bin:$HOME/bin:/lib/cuda/bin
 
 export CUDA_INSTALL_DIR=/lib/cuda/targets/x86_64-linux
 export CUDNN_INSTALL_DIR=/lib/cuda/targets/x86_64-linux
