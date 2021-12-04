@@ -154,7 +154,7 @@ let g:nord_disable_background = v:false
 let g:nord_italic = v:false
 
 
-colorscheme nord
+colorscheme night-owl
 
 " Use this for dark color schemes
 set background=dark
