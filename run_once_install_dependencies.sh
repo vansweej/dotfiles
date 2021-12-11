@@ -12,7 +12,7 @@ sudo apt -y install mit-scheme mit-scheme-dbg mit-scheme-doc
 sudo apt -y install neofetch conky conky-std gnuplot valgrind texlive texlive-extra-utils latexmk texlive-latex-extra
 sudo apt -y install gnome-tweaks libncurses5 nsight-compute guake pylint gcc-11 g++-11
 sudo apt -y install onedrive
-sudo apt -y install ripgrep fzf
+sudo apt -y install ripgrep fzf bat
 
 # edm
 sudo apt -y install kicad kicad-packages3d
