@@ -1,0 +1,10 @@
+# nightowl color scheme
+[colors]
+foreground = "#d6deeb"
+background = "#011627"
+cursor_bg = "#d6deeb"
+cursor_fg = "#011627"
+selection_bg = "#1b90dd"
+
+ansi = ["#011627","#ef5350","#22da6e","#c5e478","#82aaff","#c792ea","#21c7a8","#ffffff"]
+brights = ["#575656","#ef5350","#22da6e","#ffeb95","#82aaff","#c792ea","#7fdbca","#ffffff"]
