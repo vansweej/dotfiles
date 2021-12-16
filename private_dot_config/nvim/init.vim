@@ -118,8 +118,7 @@ Plug 'nvim-treesitter/nvim-treesitter', { 'do': ':TSUpdate' }
 Plug 'p00f/nvim-ts-rainbow'
 
 " REPL support
-" Plug 'tpope/vim-repeat'
-Plug 'urbainvaes/vim-ripple'
+Plug 'hkupty/iron.nvim'
 
 " NerdTree
 Plug 'scrooloose/nerdtree'
