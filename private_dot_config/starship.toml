@@ -1,5 +1,8 @@
 format = "$all"
 
+[character]
+success_symbol = "[ﬦ](bold green)" 
+-
 [directory]
 truncation_length = 6
 truncate_to_repo = false
