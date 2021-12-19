@@ -133,3 +133,11 @@ export TRT_INSTALL_DIR=$HOME/TensorRT-7.1.3.4
 eval "$(direnv hook bash)"
 
 neofetch
+
+# hookup direnv (for nix)
+eval "$(direnv hook bash)"
+
+# aliases
+alias vim='nvim'
+alias bat='batcat --theme="night-owl"'
+
