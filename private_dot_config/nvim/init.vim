@@ -131,6 +131,9 @@ Plug 'guns/vim-sexp'
 
 Plug 'tpope/vim-sexp-mappings-for-regular-people'
 
+Plug 'terrortylor/nvim-comment'
+
+
 call plug#end()
 
 "call deoplete#custom#var('tabnine', {'line_limit': 500, 'max_num_results': 20})

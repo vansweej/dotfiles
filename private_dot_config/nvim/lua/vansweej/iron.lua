@@ -18,6 +18,12 @@ iron.core.add_repl_definitions {
         julia_nix = {
             command = {"nixGL", "julia"}
         }
+    },
+
+    haskell = {
+        haskell = {
+            command = {"stack", "ghci"}
+        }
     }
 }
 
@@ -26,6 +32,6 @@ iron.core.set_config {
     python = "ipython",
     clojure = "lein",
     julia = "julia_nix",
-    haskell = "stack ghci"
+    haskell = "haskell"
   }
 }
