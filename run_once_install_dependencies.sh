@@ -17,10 +17,11 @@ sudo apt -y install ripgrep fzf bat direnv
 # for wezterm
 sudo apt -y install libssl3 libxcb-ewmh2
 
+# kicad
+sudo apt -y install kicad-packages3d
+
 # embedded development
 sudo apt -y install gdb-multiarch minicom openocd
 
-sudo add-apt-repository -y ppa:neovim-ppa/stable
-sudo apt -y update
 sudo apt -y install neovim
 
