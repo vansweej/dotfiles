@@ -124,13 +124,12 @@ export PATH=$PATH:$HOME/.local/bin:/opt/go/bin:/opt/julia/bin:$HOME/bin:/lib/cud
 
 export CUDA_INSTALL_DIR=/lib/cuda/targets/x86_64-linux
 export CUDNN_INSTALL_DIR=/lib/cuda/targets/x86_64-linux
-export CPATH=$HOME/TensorRT-7.1.3.4/targets/x86_64-linux-gnu/include
-export LIBRARY_PATH=$HOME/TensorRT-7.1.3.4/targets/x86_64-linux-gnu/lib:/lib/cuda/targets/x86_64-linux/lib
-export LD_LIBRARY_PATH=$HOME/TensorRT-7.1.3.4/targets/x86_64-linux-gnu/lib:/lib/cuda/targets/x86_64-linux/lib
+export CPATH=$HOME/cudnn/include:$HOME/TensorRT-7.2.3.4/targets/x86_64-linux-gnu/include:$HOME/Projects/vcpkg/installed/x64-linux/include
+export LIBRARY_PATH=$HOME/cudnn/lib64:$HOME/TensorRT-7.2.3.4/targets/x86_64-linux-gnu/lib:/lib/cuda/targets/x86_64-linux/lib
+export LD_LIBRARY_PATH=$HOME/cudnn/lib64:$HOME/TensorRT-7.2.3.4/targets/x86_64-linux-gnu/lib:/lib/cuda/targets/x86_64-linux/lib
 export LIBCLANG_PATH=/usr/lib/x86_64-linux-gnu
-export TRT_INSTALL_DIR=$HOME/TensorRT-7.1.3.4
-
-eval "$(direnv hook bash)"
+export TRT_INSTALL_DIR=$HOME/TensorRT-7.2.3.4
+export RUSTC_WRAPPER=$HOME/.cargo/bin/sccache
 
 neofetch
 
@@ -140,4 +139,3 @@ eval "$(direnv hook bash)"
 # aliases
 alias vim='nvim'
 alias bat='batcat --theme="night-owl"'
-
