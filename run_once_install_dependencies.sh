@@ -14,6 +14,9 @@ sudo apt -y install gnome-tweaks libncurses5 nsight-compute guake pylint gcc-11 
 sudo apt -y install onedrive gparted
 sudo apt -y install ripgrep fzf bat direnv
 
+# for wezterm
+sudo apt -y install libssl3 libxcb-ewmh2
+
 # embedded development
 sudo apt -y install gdb-multiarch minicom openocd
 
