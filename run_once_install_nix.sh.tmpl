@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+sh <(curl -L https://nixos.org/nix/install) --no-daemon
+
+sudo mkdir /nix
+sudo chown {{ .chezmoi.username }}:{{ .chezmoi.username }} /nix

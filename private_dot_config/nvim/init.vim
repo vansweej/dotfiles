@@ -91,12 +91,11 @@ Plug 'nvim-telescope/telescope-fzf-native.nvim', {'do': 'make' }
 
 " Lightline
 Plug 'itchyny/lightline.vim'
-
 " indent blankline
 Plug 'lukas-reineke/indent-blankline.nvim'
 
 " vim-fugitive
-Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-fugitive', { 'tag': 'v3.6' }
 
 " gitsigns
 Plug 'lewis6991/gitsigns.nvim'
@@ -160,6 +159,11 @@ colorscheme night-owl
 
 " Use this for dark color schemes
 set background=dark
+
+" transparent bg
+ autocmd vimenter * hi Normal guibg=NONE ctermbg=NONE
+ autocmd vimenter * hi EndOfBuffer guibg=NONE ctermbg=NONE
+
 
 " enable plugins
 lua require('vansweej')
