@@ -21,6 +21,9 @@ set number relativenumber  " Show line number and relative line number
 " columns used for the line number
 set numberwidth=4
 
+" enable column to show signs
+set signcolumn=yes
+
 " highlights the matched text pattern when searching
 set incsearch
 set nohlsearch
