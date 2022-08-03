@@ -1,7 +1,7 @@
 local treesitter = require('nvim-treesitter.configs')
 
 treesitter.setup {
-    ensure_installed = { "julia", "haskell", "c", "cpp", "cmake", "cuda", "dockerfile", "glsl", "go", "html", " java", "javascript", "json", "json5", "latex", "llvm", "lua", "python", "rust", "scala", "toml", "typescript", "vim", "yaml", "bash", "nix" },
+    ensure_installed = { "julia", "haskell", "c", "cpp", "cmake", "cuda", "dockerfile", "glsl", "go", "html", " java", "javascript", "json", "json5", "latex", "llvm", "lua", "python", "rust", "scala", "toml", "typescript", "vim", "yaml", "bash", "nix", "fennel", "commonlisp", "make", "ruby", "scheme" },
     highlight = {
         enable = true
     },

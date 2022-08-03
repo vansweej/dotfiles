@@ -128,17 +128,14 @@ Plug 'ryanoasis/vim-devicons'
 
 " Conjure
 Plug 'Olical/conjure'
-
 Plug 'guns/vim-sexp'
-
 Plug 'tpope/vim-sexp-mappings-for-regular-people'
 
+" Comments
 Plug 'terrortylor/nvim-comment'
 
 
 call plug#end()
-
-"call deoplete#custom#var('tabnine', {'line_limit': 500, 'max_num_results': 20})
 
 " declare your color scheme
 " settings for tokyonight
@@ -174,6 +171,7 @@ lua require('vansweej')
 " autoformat
 autocmd BufWritePre *.jl lua vim.lsp.buf.formatting_sync(nil, 1000)
 autocmd BufWritePre *.hs lua vim.lsp.buf.formatting_sync(nil, 1000)
+autocmd BufWritePre *.rs lua vim.lsp.buf.formatting_sync(nil, 1000)
 
 let g:conjure#mapping#prefix = ','
 
