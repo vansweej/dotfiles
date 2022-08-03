@@ -22,7 +22,7 @@ set number relativenumber  " Show line number and relative line number
 set numberwidth=4
 
 " enable column to show signs
-set signcolumn=yes
+set signcolumn=yes:1
 
 " highlights the matched text pattern when searching
 set incsearch
@@ -69,9 +69,6 @@ set fileformats=unix,dos  " Fileformats to use for new files
 set autowrite
 
 set noshowmode
-
-set signcolumn=number
-
 
 call plug#begin(has('nvim') ? stdpath('data') . '/plugged' : '~/.vim/plugged')
 
