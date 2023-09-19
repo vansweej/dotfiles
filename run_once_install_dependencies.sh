@@ -23,7 +23,4 @@ sudo apt -y install kicad-packages3d
 # embedded development
 sudo apt -y install gdb-multiarch minicom openocd
 
-#sudo add-apt-repository -y ppa:neovim-ppa/unstable
-#sudo apt -y update
-#sudo apt -y install neovim
-
+sudo apt -y install xsel
